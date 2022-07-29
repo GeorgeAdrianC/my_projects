@@ -1,0 +1,28 @@
+{
+    "clients": [
+        {
+            "name": "Joe Rogan",
+            "age": 52,
+            "phone": "555-004200",
+            "email": "joe_rogan@experience.com"
+        },
+        {
+            "name": "Dan Puric",
+            "age": 59,
+            "phone": "0765 54 54 54",
+            "email": "dan.puric59@gmail.com"
+        },
+        {
+            "name": "Green Goblin",
+            "age": 45,
+            "phone": "0765 54 54 54",
+            "email": "green@goblin.com"
+        },
+        {
+            "name": "Albu Andreea",
+            "age": 24,
+            "phone": "0743 025 031",
+            "email": "albu.adreea@gmail.com"
+        }
+    ]
+}
