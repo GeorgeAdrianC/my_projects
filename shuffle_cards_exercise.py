@@ -1,4 +1,7 @@
 import random
+
+"""Card shuffle generator."""
+
 def create_deck():
     numbers = ["2","3","4","5","6","7","8","9","T","J","Q","K","A"]
     suit = ["s","h","d","c"]

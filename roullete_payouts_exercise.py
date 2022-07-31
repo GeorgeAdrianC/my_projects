@@ -16,10 +16,10 @@ Write a program that simulates a spin of a roulette wheel by using Python’s ra
 number generator. Display the number that was selected and all of the bets that must
 be payed. For example, if 13 is selected then your program should display:
 The spin resulted in 13...
-Pay 13
-Pay Black
-Pay Odd
-Pay 1 to 18
+    Pay 13
+    Pay Black
+    Pay Odd
+    Pay 1 to 18
 If the simulation results in 0 or 00 then your program should display Pay 0 or
 Pay 00 without any further output.
 
