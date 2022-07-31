@@ -1,5 +1,6 @@
 import random
 """
+
 In a particular jurisdiction, older license plates consist of three letters followed by
 three numbers. When all of the license plates following that pattern had been used,
 the format was changed to four numbers followed by three letters.
@@ -7,7 +8,9 @@ Write a function that generates a random license plate. Your function should hav
 approximately equal odds of generating a sequence of characters for an old license
 plate or a new license plate. Write a main program that calls your function and
 displays the randomly generated license plate.
+
 """
+
 
 numbers = ['1','2','3','4','5','6','7','8','9','0']
 letters = ["a","b",'c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
