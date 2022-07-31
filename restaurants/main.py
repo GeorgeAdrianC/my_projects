@@ -1,5 +1,7 @@
 from restaurant_hw import Restaurant
 
+"A OOP program with different types of cuisine that gest input for number of customer served"
+
 def main():
     japanese_restaurant = Restaurant(
         name = "kawasaki sushi",
