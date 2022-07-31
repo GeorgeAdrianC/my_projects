@@ -3,6 +3,8 @@ from os import name
 import re
 from pathlib import Path
 
+"""A .json database generator for clients name, age, phone and email. """
+
 def client_interogation():
     client = {
         "name" : "",

@@ -23,6 +23,12 @@
             "age": 24,
             "phone": "0743 025 031",
             "email": "albu.adreea@gmail.com"
+        },
+        {
+            "name": "Lex Fridman",
+            "age": 36,
+            "phone": "0739 369 963",
+            "email": "lexfridman@podcast.com"
         }
     ]
 }
