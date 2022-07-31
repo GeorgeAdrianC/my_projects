@@ -1,3 +1,8 @@
+"""
+Retro keyboard exercise. It takes a message and it 
+generates a string with the number of times that key was pressed.
+"""
+
 def get_numpad():
     keyboard_numbers ={
         ".":1, ",":11, "?":111, "!":1111, ":":11111,
