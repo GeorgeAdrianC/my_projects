@@ -1,5 +1,7 @@
-
 import random
+
+"""A program that creates shopping lists."""
+
 user_greetings_prompts = ["Hi!","Hello!","Greetings, traveler!"]
 user_info_prompts = ["What's your age? ","How old are you? ","Please tell me your age. "]
 user_shopping_list_prompts = ["What's on your shopping list? ","What would you like to buy? ","What can I get you? "]
