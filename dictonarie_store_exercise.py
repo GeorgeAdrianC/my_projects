@@ -1,4 +1,5 @@
 import random
+"""Store program with data in dictionaries."""
 products = [
     {"name":"AK-47",
     "unit":"pcs.",
