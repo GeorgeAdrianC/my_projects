@@ -1,4 +1,4 @@
-""" Welcome to my tic-tac-toe game"""
+""" A simple game of tic-tac-toe."""
 
 
 def is_winner(numpad, char):
