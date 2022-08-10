@@ -35,7 +35,17 @@ class Restaurant:
     
     def increment_number_served(self):
         """Add clients to the number served."""
-        served = int(input("How many customers were served since last time?: "))
+        
+        while True:
+            try:
+                served = int(input("How many customers were served since last time?: "))
+                self.number_served = served
+                break
+            except ValueError:
+                print("Please enter an integer.")
+        
+        
+        
         self.number_served = served + self.number_served
        
             

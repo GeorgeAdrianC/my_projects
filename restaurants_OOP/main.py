@@ -29,7 +29,6 @@ def main():
     print(chinease_restaurant.describe_restaurant())
     print(chinease_restaurant.open_restaurant())
     print(chinease_restaurant.restaurant())
-
     print(russian_restaurant.describe_restaurant())
     print(russian_restaurant.open_restaurant())
     print(russian_restaurant.restaurant())
