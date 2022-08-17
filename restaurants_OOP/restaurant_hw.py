@@ -1,13 +1,13 @@
 class Restaurant:
     """A restaurant with italian cousine."""
-#metoda __init__:
+#__init__ method:
     def __init__(self, name: str, cuisine: str):
         """Atributes that describe the restaurant."""
         #atribute:
         self.name = name
         self.cuisine = cuisine
         self.number_served = 0 
-#metode:
+#methods:
     def describe_restaurant(self) -> str:
         """Return the name and specific of the restaurant."""
         name = f"{self.name}\n{self.cuisine}\n"       
