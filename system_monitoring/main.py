@@ -1,6 +1,7 @@
 import time
 import psutil
 
+"""CPU and Memory usage script with interactive output."""
 
 def cpu_usage(cpu_usage, bars=50):
     
