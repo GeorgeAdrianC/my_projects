@@ -39,7 +39,7 @@ def main():
     consumed_fuel = km * (fuel /100)
     money_value = consumed_fuel * price
     two_digit_money = format(money_value,".2f")
-    last = (f"For this trip you will need {consumed_fuel} liters of gas that will cost {two_digit_money} lei. \nHave a safe trip!")
+    last = (f"For this trip you will need {format(consumed_fuel,'.2f')} liters of gas that will cost {two_digit_money} lei. \nHave a safe trip!")
     print(last)
 
 
