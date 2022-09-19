@@ -1,3 +1,6 @@
+
+"""Password validity checker without regex."""
+
 def check_password_ascii(password: str) -> bool:
     has_numeric = False
     has_upper = False
