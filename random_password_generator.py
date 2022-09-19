@@ -12,8 +12,7 @@ exercise. Detailed information about this function is available online.
 
 import random
 
-
-def generate_password():
+def main():
     password = ""
 
     password_length = random.randint(7, 10)
@@ -22,10 +21,9 @@ def generate_password():
         random_ascii_index = random.randint(33, 126)
         random_character = chr(random_ascii_index)
         password = password + random_character
-
-    return password
-
+        
+    print(password)
 
 if __name__ == "__main__":
-    result = generate_password()
-    print(result)
+    main()
+    
