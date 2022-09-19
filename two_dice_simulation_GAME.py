@@ -1,5 +1,7 @@
 import random
 
+"""A game of dices simulator."""
+
 def random_dices():
     dice_1= [1,2,3,4,5,6]
     dice_2= [1,2,3,4,5,6]

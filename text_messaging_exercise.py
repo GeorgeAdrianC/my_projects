@@ -1,6 +1,7 @@
 """
-Retro keyboard exercise. It takes a message and it 
-generates a string with the number of times that key was pressed.
+Retro phone keyboard exercise. It takes a message and it 
+generates a string with the number of times that key was pressed
+to generate the whole message.
 """
 
 def get_numpad():

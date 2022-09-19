@@ -1,5 +1,7 @@
 import copy
 
+"""A game of tic-tac-toe using OOP."""
+
 ALL_SPACES = list("123456789") #the keys for tic tac toe board
 X, O, BLANK = "X", "O", " " #constants for string values
 
