@@ -1,12 +1,15 @@
 class Restaurant:
     """A restaurant with italian cousine."""
-#__init__ method:
+
+#__init__ method(constructor):
     def __init__(self, name: str, cuisine: str):
-        """Atributes that describe the restaurant."""
-        #atribute:
+        """Attributes that describe the restaurant."""
+        
+        #attribute:
         self.name = name
         self.cuisine = cuisine
         self.number_served = 0 
+
 #methods:
     def describe_restaurant(self) -> str:
         """Return the name and specific of the restaurant."""

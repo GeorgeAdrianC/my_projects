@@ -5,6 +5,7 @@ from wordcloud import STOPWORDS, WordCloud
 TXT_FILE = Path("sherlock.txt")
 
 # Read text
+
 text = open(TXT_FILE, mode="r", encoding="utf-8").read()
 stopwords = STOPWORDS
 
@@ -12,5 +13,6 @@ wc = WordCloud(background_color="white", stopwords=stopwords, height=600, width=
 wc.generate(text)
 
 # store to file
+
 wc.to_file("wordcloud_output.png")
 

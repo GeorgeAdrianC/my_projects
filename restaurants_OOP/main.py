@@ -3,6 +3,7 @@ from restaurant_hw import Restaurant
 "A OOP program with different types of cuisine that gest input for number of customer served"
 
 def main():
+    #object: (an object is an instance of a class)
     japanese_restaurant = Restaurant(
         name = "kawasaki sushi",
         cuisine = "japanese food",
